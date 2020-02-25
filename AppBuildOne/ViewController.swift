@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.firstLabel.text = "University of Hawa'i West O'ahu"
+        self.view.backgroundColor = UIColor.teal
     }
 
 
